@@ -4,6 +4,8 @@ class Program
 {
     static void Main()
     {
+        ArchivoHelper.VerificarArchivos();
+
         if (Autenticacion.Login())
         {
             Menu();
